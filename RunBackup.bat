@@ -8,6 +8,7 @@ for /f %%I in ('powershell -command "Get-Date -Format yyyy-MM-dd"') do set dates
 
 rem add as many lines like the following as you need
 rem /XD is used to exclude folders
+rem below 'Asus' identifies (to me) which computer the backup came from
 
 robocopy "C:\Users\Gerry\Documents" "Q:\Backups\Asus_%datestamp%\Documents" /E /R:0 /W:0 /MT /XO /XD "C:\Users\Gerry\Documents\My Videos" "C:\Users\Gerry\Documents\My Pictures" "C:\Users\Gerry\Documents\My Music"
 
