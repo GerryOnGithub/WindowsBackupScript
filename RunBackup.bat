@@ -1,4 +1,4 @@
-rem Modify this script as you like, then run in powershell
+rem Modify this script as you like, then run in PowerShell
 rem Below copy Documents to the Q drive (which is a thumbnail drive in this case)
 
 @echo off
